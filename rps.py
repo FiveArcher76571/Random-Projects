@@ -3,7 +3,6 @@
 #Start: Jan. 30, 2021
 
 import random
-import time
 
 def game(rounds):
     
