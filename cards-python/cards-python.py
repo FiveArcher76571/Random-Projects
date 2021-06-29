@@ -11,4 +11,10 @@ class Card:
         self.num = num
 
     def __repr__(self):
-        return self.num 
+        return self.num + " of " + self.suit
+
+
+mycard = Card("hearts", "6")
+print(mycard)
+
+input ("\n\nPress Enter to exit...")
