@@ -4,21 +4,7 @@
 
 import random
 
-p1left = 1
-p1right = 1
-p1fingers = 0
-p2left = 1
-p2right = 1
-p2fingers = 0
-
-def p1turn():
-
-    p1left = 1
-    p1right = 1
-    p1fingers = 0
-    p2left = 1
-    p2right = 1
-    p2fingers = 0
+def p1turn(p1left, p1right, p1fingers):
 
     p1prep = str(input("Which hand do you want to use? Or do you want to manage your own hands? (l for left, r for right, m for manage):\n"))
     p1prep = p1prep.lower()
@@ -51,7 +37,8 @@ def p1turn():
         else:
             print("Error bruh")
 
-def p2turn():
+def p2turn(p2left, p2right, p2fingers):
+    
     p2prep = str(input("Which hand do you want to use? (l for left and r for right):\n"))
     p2prep = p2prep.lower()
     p2atk = str(input("Which hand do you want to tap? (l for left and r for right):\n"))
