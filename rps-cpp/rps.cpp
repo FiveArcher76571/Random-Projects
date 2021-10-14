@@ -10,4 +10,6 @@ int main() {
     cout << "Unfinished..." << endl;
 
     cin.get();
+
+    return 0;
 }
