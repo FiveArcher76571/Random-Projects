@@ -7,7 +7,23 @@
 using namespace std;
 
 int main() {
-    cout << "Unfinished..." << endl;
+    
+    cout << "Welcome to RPS!" << endl;
+    string p1name;
+    cout << "What's your name?" << endl;
+    bool ok = false;
+    while (!ok) {
+        cin >> p1name;
+        if (!cin) {
+            cout << "Error. Please enter a valid name" << endl;
+        }
+        else {
+            ok = true;
+        }
+    }
+
+
+
 
     cin.get();
 
